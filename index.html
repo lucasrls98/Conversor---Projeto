@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,45 @@
     <link rel="stylesheet" href="styles/styles.css">
     <script src="js/main.js" defer></script>
 </head>
+
 <body>
-    <header class="cabecalho">Conversor de Unidades</header>
-    <main></main>
-    <footer></footer>
+    <header class="cabecalho">
+        <h1 class="cabecalho-titulo">Conversor de Unidades - Projeto Resilia Educação</h1>
+    </header>
+    <main>
+        <form id="conversor-formulario">
+            <label for="valor">Valor:</label>
+            <input type="number" id="valor" placeholder="Insira o valor">
+
+            <label for="categoria">Categoria:</label>
+            <select id="categoria">
+                <option value="selecionar">Escolha uma medida</option>
+                <option value="comprimento">Comprimento</option>
+                <option value="peso">Peso</option>
+                <option value="temperatura">Temperatura</option>
+            </select>
+
+            <label for="unidade-origem">Unidade de Origem:</label>
+            <select id="unidade-origem"></select>
+
+            <label for="unidade-destino">Unidade de Destino:</label>
+            <select id="unidade-destino"></select>
+
+            <button type="button" id="botao-converter">Converter</button>
+
+            <div id="resultado" class="resultado">
+                <label for="resultado">Resultado:</label>
+                <input type="number" id="area-resultado" readonly>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <h2>Desenvolvido Por Lucas Rolando</h2>
+        <nav>
+            <a href="#"><img src="./images/Logo Github.png" alt="logo do github"></a>
+            <a href="#"><img src="./images/Logo linkedin.png" alt="logo do linkedin"></a>
+        </nav>
+    </footer>
 </body>
+
 </html>
