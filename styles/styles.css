@@ -76,15 +76,18 @@ section{
     flex-direction: column;    
     justify-content: center;
     align-items: center;    
-    padding: 5% 0% 10% 0%;
-    width: 40%;
+    padding: 5% 0% 8% 0%;
+    width: 34%;
     gap: 10px;    
     color: #000000;
     background: var(--background-gradient);
-    border-radius: 100px;
+    border-radius: 8px;
     font-family: var(--second-font);
     font-size: 2rem;
-    font-weight: 600;    
+    font-weight: 600;
+    border-top-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+
 
 }
 
@@ -166,9 +169,27 @@ input{
 
 
 /* Estilos do Footer  */
-footer{
-    border: 1px solid rgb(255, 255, 255);
-
+footer{  
+    border-top: 1.7px solid var(--third-color);
+    color: var(--second-color);
+    font-family: var(--second-font);
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.2rem;
+    padding: 2% 0;
+    text-align: center;
+    align-items: center;   
 }
 
+.logo{
+    margin: 0 15px;
+    width: 65px;
+}
+
+.logo:hover{
+    transform: scale(1.04);
+    transition: .3s;
+    transition: opacity 0.5s ease;
+    opacity: 0.4;
+}
 
