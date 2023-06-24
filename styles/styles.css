@@ -1,24 +1,46 @@
 /* RESET CSS  */
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos do Header  */
+.cabecalho{
+    border: 1px solid black;
+    width: 100%;
+    padding: 2% 0;
+    display: flex;
+    justify-content: center;
+}
+
+
 
 /* Estilos do formulário de conversão */
 
 #conversor-formulario{
     display: flex;
-    flex-direction: column;
-    width: 100%;    
-    gap: 10px;
+    flex-direction: column;    
+    justify-content: space-around;
     align-items: center;
+    border: 1px solid black;
+    padding: 15% 0% 30% 0%;
+
 }
 
 select{
     width: 10%;
+}
+
+/* Estilos do Footer  */
+footer{
+    border: 1px solid black;
+
 }
 
 
