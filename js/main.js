@@ -115,7 +115,7 @@ function realizarConversao(valor, categoria, unidadeOrigem, unidadeDestino) {
         }
     }
 
-    // Caso não seja uma conversão válida, retorne 0 ou outra indicação de que não foi possível realizar a conversão
+    // Caso não seja uma conversão válida
     return "Conversão inválida";
 }
 
