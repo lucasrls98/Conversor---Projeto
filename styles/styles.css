@@ -5,3 +5,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* Estilos do formulário de conversão */
+
+#conversor-formulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+    gap: 10px;
+    align-items: center;
+}
+
+
+
