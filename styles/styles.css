@@ -1,3 +1,16 @@
+/* importando fonte  */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+/* variáveis de paleta de cores e fontes  */
+:root {
+    --main-color: #000000;
+    --second-color: #f6f6f6;
+    --third-color: #22d4fd;
+    --hover-color: #272727;
+    --main-font: 'Krona One', sans-serif;
+    --second-font: "Montserrat", sans-serif;
+}
+
 /* RESET CSS  */
 *{
     margin: 0;
@@ -28,18 +41,27 @@ body main{
 
 /* Estilos do formulário de conversão */
 
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 0% 12% 0%;
+}
+
 #conversor-formulario{
     display: flex;
     flex-direction: column;    
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     border: 1px solid black;
-    padding: 15% 0% 30% 0%;
+    padding: 15% 0% 20% 0%;
+    width: 40%;
+    gap: 10px;    
 
 }
 
 select{
-    width: 10%;
+    width: 50%;
 }
 
 /* Estilos do Footer  */
