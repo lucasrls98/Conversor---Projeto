@@ -8,6 +8,7 @@
     --third-color: #22d4fd;
     --hover-color: #272727;
     --background-gradient:linear-gradient(160deg, #22d4fd 0%, #6fafa7 100%);
+    --yellow-color: #ffd000;
     --main-font: 'Krona One', sans-serif;
     --second-font: "Montserrat", sans-serif;
 
@@ -34,10 +35,9 @@ body main{
 }
 
 /* Estilos do Header  */
-.cabecalho{
-    border: 1px solid rgb(255, 255, 255);
+.cabecalho{    
     width: 100%;
-    padding: 2% 0;
+    padding: 2% 0.5%;
     display: flex;
     justify-content: center;
 }
@@ -45,7 +45,7 @@ body main{
 /* titulo da página  */
 .cabecalho-titulo{
     font-family: var(--main-font);
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
     color: var(--third-color);
     
@@ -75,25 +75,95 @@ section{
     display: flex;
     flex-direction: column;    
     justify-content: center;
-    align-items: center;
-    border: 1px solid rgb(255, 255, 255);
-    padding: 10% 0% 12% 0%;
+    align-items: center;    
+    padding: 5% 0% 10% 0%;
     width: 40%;
     gap: 10px;    
-    color: var(--main-color);
+    color: #000000;
     background: var(--background-gradient);
-    border-radius: 20px;
+    border-radius: 100px;
     font-family: var(--second-font);
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 600;    
 
+}
+
+.valor-estilo{
+    margin-right: 60px;
 }
 
 /* estilo dos seletores  */
 select{
     width: 50%;
     font-family: var(--second-font);
+    font-weight: 700;
+    width: 250px;
+    text-align: center;
+    height: 45px;
+    font-size: 1.2rem;
+    border-radius: 16px;
+    border: none;
+    background-color: var(--yellow-color);
+    color: var(--main-color)
+
 }
+
+/* Estilos do botão  */
+
+#botao-converter{
+    font-family: var(--second-font);
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-radius: 16px;
+    border: none;
+    margin: 20px;  
+    margin-bottom: 50px;
+    background-color: var(--main-color);
+    color:var(--second-color);
+    
+}
+
+#botao-converter:hover{
+    background: var(--main-color);
+    color: var(--second-color)
+}
+
+input{
+    width: 180px;
+    text-align: center;
+    height: 45px;
+    font-size: 1.4rem;
+    font-family: var(--second-font);
+    font-weight: 700;
+    background-color: #d4d1c5;
+    color: var(--main-color);
+    border: none;
+    border-radius: 16px;
+
+}
+
+
+/* Estilos do Resultado  */
+
+#resultado{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#area-resultado{
+    width: 250px;
+    height: 60px;
+    font-size: 2rem;
+    background-color: #d4d1c5;
+    color: var(--main-color);
+    border:none;
+    border-radius: 16px;
+}
+
+
 
 /* Estilos do Footer  */
 footer{
