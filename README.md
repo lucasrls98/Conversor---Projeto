@@ -6,7 +6,7 @@ Este é o projeto do Conversor de Unidades desenvolvido como parte do curso de f
   <img src="images/conversor-readme.png" alt="imagem do conversor" width="800">
 </div>
 
-<iframe src="https://giphy.com/embed/1xqolz73jHetYqlSbU" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/1xqolz73jHetYqlSbU">via GIPHY</a></p>
+
 
 ## Requisitos
 
