@@ -19,9 +19,8 @@ Este é o projeto do Conversor de Unidades desenvolvido como parte do curso de f
 
 ## Estrutura do Projeto
 
-<p align="center">
-  <img src="images/project-structure.png" alt="Folders do projeto" width="250">
-</p>
+<img src="images/project-structure.png" alt="Folders do projeto" width="250">
+
 
 O projeto possui a seguinte estrutura de arquivos:
 
