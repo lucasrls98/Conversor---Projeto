@@ -2,7 +2,8 @@
 
 Este é o projeto do Conversor de Unidades desenvolvido como parte do curso de formação Dev Fullstack da Resilia Educação no projeto Códigos do Amanhã da EBANX. O objetivo do projeto é criar uma página web interativa que permita aos usuários converter valores entre diferentes unidades de medida, incluindo comprimento, peso e temperatura.
 
-<img src="images/conversor-gif.gif" alt="Conversor de Unidades">
+
+![corversor-gif](https://github.com/lucasrls98/Conversor---Projeto/assets/105527638/1b14cde6-10d0-47b3-8085-314084d2f0d1)
 
 
 
