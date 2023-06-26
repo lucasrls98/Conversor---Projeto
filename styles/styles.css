@@ -194,7 +194,7 @@ footer{
     opacity: 0.4;
 }
 
-/* responsividade para tela 1120px e 640px */
+/* responsividade para tela 1120px e 640px - fiz alguns testes e nesses tamanhos ficaram bons para tablets e smartphones */
 
 @media screen and (max-width:1120px) {
     #conversor-formulario{
